@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a:link {text-decoration:none;color: gray}
+a:active {text-decoration:blink}
+a:hover {text-decoration:underline;color: red}
+a:visited {text-decoration:none;color: black}
+body{
+	font-family: arial;
+	background: #dedede;
+}
+div#msg{
+	display: block;
+	margin: 30px 200px;
+	padding: 70px;
+	background: white;
+	box-shadow: 1px 1px 2px 1px #848484;
+	height: 1500px;
+}
+h1,h2{
+	margin-top: 50px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #aaa;
+}
+div ul{
+	margin: 5px auto;
+	padding-left: 30px;
+}
+div ul li{
+	padding: 5px;
+}
+p.project_content{
+	padding: 5px;
+	text-indent: 2em;
+}
+div.skill{
+	margin: 10px auto;
+}
+div.assessment{
+	margin: 10px auto;
+}
+div.thanks{
+	margin: 10px auto;
+	text-indent: 2em;
+}
