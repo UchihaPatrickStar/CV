@@ -1,2 +1,0 @@
-# UchihaPatrickStar.github.io
-

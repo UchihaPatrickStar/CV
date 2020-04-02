@@ -8,38 +8,59 @@ a:hover {text-decoration:underline;color: red}
 a:active {text-decoration:blink}
 body{
 	font-family: arial;
-	background: #dedede;
+  background: #dedede;
 }
-div.msg{
-	display: block;
-	margin: 30px 200px;
-	padding: 70px;
-	background: white;
-	box-shadow: 1px 1px 2px 1px #848484;
+.container{
+  padding: 70px;
+}
+.per_info{
+  overflow: hidden;
+  display: block;
+  width: 700px;
+	margin: auto;
+	padding: 30px 70px;
+	background: #fff;
+  box-shadow: 1px 1px 2px 1px #848484;
 }
 h1,h2{
 	margin-top: 50px;
 	padding-bottom: 8px;
 	border-bottom: 1px solid #aaa;
 }
-div ul{
+h4{
+  padding: 8px 0;
+}
+ul,ol{
 	margin: 5px auto;
-	padding-left: 30px;
+	padding-left: 10px;
 }
-div ul li{
+
+ul li{
 	padding: 5px;
 }
-p.project_content{
+
+ol li{
 	padding: 5px;
-	text-indent: 2em;
 }
-div.skill{
+.skill{
+  padding-top: 15px;
+}
+.job_info{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.project_desc p{
+  text-indent: 2em;
+  padding-bottom: 10px;
+}
+.skill{
+	padding: 10px auto;
+}
+.assessment{
 	margin: 10px auto;
 }
-div.assessment{
-	margin: 10px auto;
-}
-div.thanks{
+.thanks{
 	margin: 10px auto;
 	text-indent: 2em;
 }
