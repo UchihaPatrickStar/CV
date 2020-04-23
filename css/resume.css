@@ -50,6 +50,9 @@ ol li{
   justify-content: space-between;
   padding: 15px 0;
 }
+.job_info > span {
+  font-weight: bold;
+}
 .project_desc p{
   text-indent: 2em;
   padding-bottom: 10px;
