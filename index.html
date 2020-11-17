@@ -20,7 +20,7 @@
         <li>Email：newbiechen@foxmail.com</li>
         <li>QQ:615823815</li>
         <li>技术博客：<a href="https://newbiechen.top" target="_blank">https://newbiechen.top</a></li>
-        <li>Github：<a href="https://github.com/UchihaPatrickStar" target="_blank">https://github.com/UchihaPatrickStar</a>
+        <!-- <li>Github：<a href="https://github.com/UchihaPatrickStar" target="_blank">https://github.com/UchihaPatrickStar</a> -->
         </li>
         <li>期望职位：前端开发工程师</li>
         <li>期望城市：不限</li>
@@ -29,15 +29,27 @@
       <h2>工作经历</h2>
       <div class="job"">
         <div class=" job_info">
-          <span>2018.6~2020.2</span>
-          <span>江西力若科技有限公司</span>
+          <span>2010.5~2020.12</span>
+          <span>南昌传爱网络科技</span>
+          <span>Web前端开发工程师</span>
+        </div>
+        <div class="job_desc">
+          <ul>
+            <li>个人主要负责公司后台项目和相关h5页面的开发以及日常维护和更新工作，主要使用前端工程化和模块化的思想进行项目开发，技术栈为
+              JQuery、Vue、ES6、elementUI组件库、及其各种第三方Vue插件等前端技术开发公司移动端h5以及pc端项目</li>
+            <li>与Java后台同事对接和调试相关功能的API接口完成项目功能模块的正常开发，项目开发完毕后并负责后续优化、修改迭代工作。</li>
+          </ul>
+        </div>
+        <div class="job_info">
+          <span>2018.4~2020.2</span>
+          <span>江西力若科技</span>
           <span>Web前端开发工程师</span>
         </div>
         <div class="job_desc">
           <ul>
             <li>个人负责公司多个项目的前端页面布局设计和程序功能开发以及日常维护和更新工作，主要使用HTML、CSS3、Less、
-              JQuery、Vue、ES6、VueUI组件库、及其各种第三方Vue插件等前端技术开发公司产品以及PC端项目</li>
-            <li>使用Java后台同事制定的相关功能API接口完成项目功能模块的数据交互，项目开发完毕后并负责后续优化、修改迭代工作。</li>
+              JQuery、Vue、ES6、MUI组件库、及其各种第三方Vue插件等前端技术开发项目</li>
+            <li>与Java后台同事对接接口，实现项目的完整落地。</li>
           </ul>
         </div>
       </div>
@@ -45,22 +57,71 @@
       <h2>项目经验</h2>
       <div class="project"">
         <div class=" job_info">
-          <span>项目一：公司内部后台管理系统</span>
+          <span>项目一：成考后台管理系统</span>
         </div>
 
         <div class="project_desc">
           <h4>项目描述:</h4>
-          <p>该项目是一个用于统计每日产出量、发货量、产品规格、产品库存、订单管理、商品管理、商户名称、商户管理等功能的后台系统。<p>
+          <p>该项目是一个主要用于管理成考App相关功能的后台系统，其中主要包括发布视频和问答、数据分析、内容管理、学币管理、抽奖管理、课程管理等功能。<p>
         </div>
 
         <div class="project_content">
           <h4>技术内容:</h4>
           <ol>
-            <li>使用vue-cli脚手架快速搭建项目结构。</li>
+            <li>使用vue-cli3脚手架快速搭建项目结构</li>
+            <li>前端采用Vue技术，UI库使用ElementUI，vue-router路由跳转</li>
+            <li>采用CSS模块化和Vue组件化设计方案，提高开发效率，代码简洁、复用率高，项目可维护性高</li>
+            <li>使用echarts展示数据趋势变化</li>
+            <li>使用axios发送请求，与后台对接接口</li>
+            <li>使用cdn外部加载资源，优化项目加载速度</li>
+            <li>使用路由懒加载优化项目</li>
+            <li>引用ali-oss实现前端上传视频直传功能</li>
+            <li>引用babel-polyfill和es6-promise解决es6和浏览器兼容问题</li>
+            <li>使用px2rem对项目做整体适配</li>
+          </ol>
+        </div>
+
+        <div class="project_module">
+          <h4>负责模块:</h4>
+          <ol>
+            <li>整个系统前端部分由我一个单独负责开发</li>
+            <li>登录页面：用于用户登录，以及权限校验功能，对路由做路由鉴权，使用sessionStorage存储token</li>
+            <li>创作功能：该页面用于管理员在App端发布视频资讯或问答，主要包括上传图片和视频，限制其上传大小、格式等功能</li>
+            <li>数据趋势页面：使用echarts技术来展示用户、作品、课程、学币等数据的动态趋势</li>
+            <li>内容管理页面：用于展示目前正在已经发布的作品、评论、问答、举报等信息的描述和相关操作功能</li>
+            <li>学币商城管理页面：可显示和管理所有课程的信息，以及所属学币量、有效期和启禁用状态等</li>
+            <li>页面所有数据在mounted中使用axios发送请求获取数据，实现数据实时更新</li>
+            <li>为了增加对话框的多样性，给展示评论对话框添加抽屉抽拉效果</li>
+            <li>为了增强用户体验，在axios请求拦截器中使用nproress进度条效果进行优化</li>
+          </ol>
+        </div>
+
+        <div class="project_gain">
+          <h4>项目收获:</h4>
+          <ol>
+            <li>在上传视频时，服务器返回数据过慢导致用户体验极差，最终使用ali-oss直传的方案解决问题</li>
+            <li>在项目开发中，总会限于自己的固有思维导致故步自封，应多吸取于他人优秀的方案，拓展技术的广度和深度</li>
+            <li>这是我第一次一个人把控整个前端项目的开发，在整个项目的前期没有考虑到一些封装和模块化的处理，在后期再考虑到封装就比较麻烦</li>
+          </ol>
+        </div>
+
+        <div class=" job_info">
+          <span>项目二：自考伴后台管理系统</span>
+        </div>
+
+        <div class="project_desc">
+          <h4>项目描述:</h4>
+          <p>该项目是一个用于管理自考伴App的后台系统，其中主要模块包括内容管理、用户管理、功能管理、系统管理和活动管理等模块。<p>
+        </div>
+
+        <div class="project_content">
+          <h4>技术内容:</h4>
+          <ol>
+            <li>该项目前期主要使用JQuery+layUI的方式开发，后期技术更新，对项目进行工程化和模块化的方式开发</li>
+            <li>使用vue-cli3脚手架快速搭建项目结构。</li>
             <li>前端采用Vue技术，UI库使用ElementUI</li>
             <li>采用CSS模块化和Vue组件化设计方案，提高开发效率，代码简洁、复用率高，项目可维护性高</li>
-            <li>使用vuex管理数据，vue-router路由跳转</li>
-            <li>mockjs模拟后台数据</li>
+            <li>UI组件 按需加载，减少项目体积</li>
             <li>使用axios发送请求，调用后台数据，保证网站数据实时更新</li>
           </ol>
         </div>
@@ -68,14 +129,14 @@
         <div class="project_module">
           <h4>负责模块:</h4>
           <ol>
-            <li>登录页面：用于用户登录，以及权限校验功能，使用vue-router动态路由判断用户的操作权限</li>
-            <li>搜索功能：把输入的数据关键字传入后端，后端通过搜索引擎筛选数据，把数据返回给前端渲染页面</li>
-            <li>每日发货统计页面：主要用于展示各类产品每日发货汇总，与昨日对比，点击下拉菜单会有选择对应产品的选项，点击查看详情会有发货量浮动图表</li>
-            <li>产品规格页面：用于展示目前正在生产的所有产品规格，有添加和删除功能，添加功能主要有添加产品描述</li>
-            <li>商品管理页面：会显示所有商品的信息，由于其他页面也需要展示商品参数和分类信息，所以需要把它放到vuex中数据共享</li>
-            <li>页面所有数据在mouted中使用axios发送请求获取数据，实现数据实时更新</li>
-            <li>为了方便管理与通知，新增内部公告页面：用于查看产业城内部通告信息，点击查看更多，进入公告列表页面，页面有分页功能</li>
-            <li>为了增强用户体验，页面使用nproress进度条效果进行优化</li>
+            <li>登录页面：用于用户登录，以及权限校验功能，登陆完成时调用接口判断用户使用权限，使用sessionStorage存储token</li>
+            <li>首页：显示整体数据，使用echarts的折线图来展示相关数据，使用echarts中国地图展示各个区域的数据</li>
+            <li>内容管理模块：发布内容页面主要包括上传图片和视频等功能，在内容管理页面可将发布过的资讯或帖子进行管理</li>
+            <li>用户管理模块：该模块用于展示用户的一些反馈和用户的数据分析功能</li>
+            <li>功能管理模块：其中包括对App的一些功能模块的配置功能，诸如：积分、客服、词库、题库等的管理</li>
+            <li>活动管理模块：该模块主要用于发布活动和对活动进行一些相关的配置，监测每一个用户参与活动的状态</li>
+            <li>为了方便管理与通知，增加系统管理模块：用于对公司员工使用该系统的权限做一些管理配置，对每一种权限都做一个分组</li>
+            <li>封装vue-quill-editor组件，使图片可以上传到公司服务器上，使用quill-image-resize-module插件可动态调整发布图片的大小</li>
           </ol>
         </div>
 
@@ -87,9 +148,49 @@
           </ol>
         </div>
 
+        <div class=" job_info">
+          <span>项目三：成考问答模块开发</span>
+        </div>
+
+        <div class="project_desc">
+          <h4>项目描述:</h4>
+          <p>该项目是一个抽取自成考App的一个问答模块的h5移动端项目，该项目主要包括所有问答、详细问答的显示以及发布问答和个人问答等相关功能<p>
+        </div>
+
+        <div class="project_content">
+          <h4>技术内容:</h4>
+          <ol>
+            <li>使用vue-cli3脚手架快速搭建项目结构。</li>
+            <li>前端采用Vue技术，UI库使用vant</li>
+            <li>采用Vue组件化设计方案，提高开发效率，代码简洁、复用率高，项目可维护性高</li>
+            <li>使用axios发送请求，调用后台数据</li>
+            <li>调用微信api封装js-sdk实现h5在微信的朋友和朋友圈分享功能</li>
+          </ol>
+        </div>
+
+        <div class="project_module">
+          <h4>负责模块:</h4>
+          <ol>
+            <li>搜索功能：把输入的数据关键字传入后端，后端通过搜索引擎筛选数据，把数据返回给前端渲染页面</li>
+            <li>问答首页：主要用于展示App端所有问答包括置顶问答以及点赞功能等</li>
+            <li>问答详情页面：根据问答id展示单条问答详情，包括问答下的评论，回复评论等功能</li>
+            <li>发布页面：用于发布在首页可供展示的问答，包括发布图片，悬赏学币等功能</li>
+            <li>我的问答页面：用于展示当前用户发布的问答和评论，可点击跳转到当前问答，下拉加载更多等功能</li>
+            <li>封装js-sdk实现h5可以自定义图片、标题、描述等分享到朋友或朋友圈的功能</li>
+          </ol>
+        </div>
+
+        <div class="project_gain">
+          <h4>项目收获:</h4>
+          <ol>
+            <li>在需要写分享功能的需求时，通过多方查阅资料，最后发现了可以调用微信公众平台的api实现分享功能</li>
+            <li>在写移动端项目时，发现根据手机的不同会出现一些奇奇怪怪的bug，应更严谨的用多款手机进行测试</li>
+          </ol>
+        </div>
+
         <div class="project"">
           <div class=" job_info">
-            <span>项目二：公司官网开发</span>
+            <span>项目四：公司官网开发</span>
           </div>
   
           <div class="project_desc">
@@ -112,8 +213,8 @@
       <div class="skill">
         <ol>
           <li>英语六级，在工作中能轻松看懂一些英文文档。</li>
-          <li>在工作中熟练使用JS、CSS、HTML、jQuery、ajax、Vue等开发技能。</li>
-          <li>在工作中熟练使用JQuery库、Vue框架、全家桶、及各类组件库（Element UI、mint-ui、mui）及其各种第三方Vue插件编写实现产品页面。</li>
+          <li>在工作中熟练使用JS、CSS、HTML、jQuery、ajax、Vue、React、Node等开发技能。</li>
+          <li>在工作中熟练使用JQuery库、Vue框架、全家桶、及各类组件库（Element UI、vant-ui、lay-ui）及其各种第三方Vue插件编写实现产品页面。</li>
           <li>在工作中熟练使用Vue开发单页面应用，了解Vue的响应式开发原理，以及MVVM、组件化等。</li>
           <li>熟悉使用github，使用git命令进行版本管理。</li>
           <li>熟悉JavaScript运行机制，浏览器渲染机制。</li>
